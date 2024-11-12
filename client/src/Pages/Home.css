@@ -1,0 +1,57 @@
+home-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.home-header {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.home-header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #007bff;
+  margin: 0 10px;
+  font-size: 1.2em;
+}
+
+.home-intro {
+  margin-top: 40px;
+}
+
+.home-intro h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.home-intro p {
+  font-size: 1.2em;
+  color: #ffffff;
+}
+
+.button {
+  cursor: pointer;
+  width: 100%;
+  display: block;
+  border: 0;
+  color: #e0e6ed;
+  border-radius: 5px;
+  font-size: large;
+  padding: 10px;
+  transition: transform 0.2s ease, color 0.2s ease;
+  background-color: #304760;
+  width: fit-content;
+  margin-left: auto;
+  box-shadow: #304760;
+  margin-right: auto;
+}
+
+.button:hover {
+  transform: scale(1.1); /* Slightly increase size on hover */
+  color: #e0e6ed;
+}
